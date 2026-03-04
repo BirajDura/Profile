@@ -1,5 +1,5 @@
 import housewareImg from "../assets/HouseWare.png";
-// import calculatorImg from "../assets/Calcu.png";
+import GymImage from "../assets/Gym Image.png";
 
 import poster1 from "../assets/POSTER1.jpg";
 import poster2 from "../assets/MoviePoster.png";
@@ -14,12 +14,12 @@ function Projects() {
       img: housewareImg,
       link: "#",
     },
-    // {
-    //   title: "Calculator",
-    //   description: "A simple calculator made with HTML & CSS.",
-    //   img: calculatorImg,
-    //   link: "https://birajdura.github.io/Calculator/",
-    // },
+    {
+      title: "IRON SANCTUM",
+      description: "IronSanctum Gym is a sleek, high-impact fitness web application crafted with React, featuring a premium design that embodies strength, discipline, and elite training culture.",
+      img: GymImage,
+      link: "https://iron-sanctum-gym.vercel.app/",
+    },
   ];
 
   const designProjects = [
