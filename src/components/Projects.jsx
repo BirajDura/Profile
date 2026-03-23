@@ -1,10 +1,13 @@
 import housewareImg from "../assets/HouseWare.png";
 import GymImage from "../assets/Gym Image.png";
+import resturant from "../assets/Resturant.png";
 
 import poster1 from "../assets/POSTER1.jpg";
 import poster2 from "../assets/MoviePoster.png";
 import poster3 from "../assets/MessiPoster.png";
 import CaneImage from "../assets/PrintedCane.jpg";
+
+
 
 function Projects() {
   const webProjects = [
@@ -19,6 +22,12 @@ function Projects() {
       description: "IronSanctum Gym is a sleek, high-impact fitness web application crafted with React, featuring a premium design that embodies strength, discipline, and elite training culture.",
       img: GymImage,
       link: "https://iron-sanctum-gym.vercel.app/",
+    },
+     {
+      title: "Resturant",
+      description: "Craving satisfied instantly with delicious fast food made fresh every day.🍟",
+      img: resturant,
+      link: "https://restrurant.vercel.app/",
     },
   ];
 
@@ -46,7 +55,7 @@ function Projects() {
       <h2>Projects</h2>
 
       {/* Web Projects */}
-      <h3 className="section-subtitle">Web Development</h3>
+      <h3 className="section-subtitle">01 - Web Development</h3>
       <div className="projects-grid">
         {webProjects.map((project, index) => (
           <div className="project-card" key={index}>
@@ -61,7 +70,7 @@ function Projects() {
       </div>
 
       {/* Graphic Designs */}
-      <h3 className="section-subtitle">Graphic Designs</h3>
+      <h3 className="section-subtitle">02 - Graphic Designs</h3>
       <div className="projects-grid">
         {designProjects.map((design, index) => (
           <div className="project-card" key={index}>
